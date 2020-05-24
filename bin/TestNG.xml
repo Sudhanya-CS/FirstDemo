@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite-Registration" parallel="none"> 
+<listeners>
+ <listener class-name="TestNGFrame.Listeners"></listener>
+ </listeners>
+  <test name="Test-Registration"> 
+ <classes> 
+ <class name="TestNGFrame.ExtentReportsExample"/> 
+ </classes> 
+ </test>  
+</suite>
